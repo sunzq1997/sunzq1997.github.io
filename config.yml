@@ -1,0 +1,10 @@
+baseURL: '/'
+title: 'sunzq1997 blog'
+theme: PaperMod
+publishDir: "docs"
+
+params:
+  homeInfoParams:
+        Title: "PaperMod"
+        Content: >
+            Welcome to demo of hugo's theme PaperMod.
