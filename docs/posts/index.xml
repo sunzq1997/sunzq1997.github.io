@@ -5,32 +5,16 @@
     <link>/posts/</link>
     <description>Recent content in Posts on sunzq1997 blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 24 Nov 2021 23:34:07 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Dec 2021 19:18:14 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Three</title>
-      <link>/posts/three/</link>
-      <pubDate>Wed, 24 Nov 2021 23:34:07 +0800</pubDate>
+      <title>Maven修改阿里云镜像</title>
+      <link>/posts/maven%E4%BF%AE%E6%94%B9%E9%98%BF%E9%87%8C%E4%BA%91%E9%95%9C%E5%83%8F/</link>
+      <pubDate>Wed, 01 Dec 2021 19:18:14 +0800</pubDate>
       
-      <guid>/posts/three/</guid>
-      <description>faaasgvs  sfas afsg Gsgsg  </description>
-    </item>
-    
-    <item>
-      <title>Two</title>
-      <link>/posts/two/</link>
-      <pubDate>Tue, 23 Nov 2021 22:46:29 +0800</pubDate>
-      
-      <guid>/posts/two/</guid>
-      <description>two </description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>/posts/my-first-post/</link>
-      <pubDate>Tue, 23 Nov 2021 20:40:50 +0800</pubDate>
-      
-      <guid>/posts/my-first-post/</guid>
-      <description>测试   2 3 4  </description>
+      <guid>/posts/maven%E4%BF%AE%E6%94%B9%E9%98%BF%E9%87%8C%E4%BA%91%E9%95%9C%E5%83%8F/</guid>
+      <description>  config.xml中添加如下
+&amp;lt;mirror&amp;gt; &amp;lt;id&amp;gt;aliyunmaven&amp;lt;/id&amp;gt; &amp;lt;mirrorOf&amp;gt;*&amp;lt;/mirrorOf&amp;gt; &amp;lt;name&amp;gt;阿里云公共仓库&amp;lt;/name&amp;gt; &amp;lt;url&amp;gt;https://maven.aliyun.com/repository/public&amp;lt;/url&amp;gt; &amp;lt;/mirror&amp;gt;   idea中添加如下
+-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true    </description>
     </item>
     
   </channel>

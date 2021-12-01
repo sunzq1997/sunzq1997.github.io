@@ -137,6 +137,20 @@
 
     </footer>
 </article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Maven修改阿里云镜像
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>  config.xml中添加如下
+&lt;mirror&gt; &lt;id&gt;aliyunmaven&lt;/id&gt; &lt;mirrorOf&gt;*&lt;/mirrorOf&gt; &lt;name&gt;阿里云公共仓库&lt;/name&gt; &lt;url&gt;https://maven.aliyun.com/repository/public&lt;/url&gt; &lt;/mirror&gt;   idea中添加如下
+-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true    </p>
+  </section>
+  <footer class="entry-footer"><span title='2021-12-01 19:18:14 +0800 CST'>December 1, 2021</span></footer>
+  <a class="entry-link" aria-label="post link to Maven修改阿里云镜像" href="/posts/maven%E4%BF%AE%E6%94%B9%E9%98%BF%E9%87%8C%E4%BA%91%E9%95%9C%E5%83%8F/"></a>
+</article>
     </main>
     
 <footer class="footer">
